@@ -8,12 +8,6 @@ An object oriented interface for generating JSON definition strings for AWS Step
 
 ## Install
 
-### Locally
-
-~~~~bash
-cd asl-states
-~~~~
-
 Create a virtual environment
 
 ~~~~bash
@@ -21,9 +15,15 @@ python -m venv .venv
 source .venv/bin/activate
 ~~~~
 
-Pip install locally
+### Pip install from git repo
+
 ~~~~bash
+pip install git+https://github.com/jabrennem/asl-states.git
+~~~~
+
+### Install locally
+~~~~bash
+git clone git+https://github.com/jabrennem/asl-states.git
 cd asl-states
 pip install .
 ~~~~
-
